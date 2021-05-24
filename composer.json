@@ -1,0 +1,14 @@
+{
+    "name": "fishpig/magento2-remove-instant-purchase",
+    "description": "Remove InstantPurchase.",
+    "type": "project",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Magento\\InstantPurchase\\": "Mock/Magento/InstantPurchase"
+        }
+    },
+    "replace": {
+        "magento/module-instant-purchase": "*"
+    }
+}
